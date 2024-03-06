@@ -1,0 +1,72 @@
+body {
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo-name {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.login {
+    color: rgb(5, 96, 126);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.4rem;
+    background-color: white;
+    padding: 3rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+.inside-form {
+    margin-left: rem;
+    margin-right: 1rem;
+}
+label {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(5, 96, 126);
+    
+}
+input {
+    width: 20rem;
+    height: 1.8rem;
+    border: 1px solid rgba(0, 0, 255, 0.863);
+    border-radius: 3px;
+    outline-style: none;
+    padding-left: 1rem;
+    background-color: rgb(252, 251, 251);
+    font-size: 19px;
+    font-weight: 500;
+}
+input:focus {
+    border: 2px solid blue;
+}
+
+
+@media screen and (max-width: 740px) {
+    .formm {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    }
+}
+@media screen and (max-width: 740px) {
+    input {
+        width: 13rem;
+    }
+}
