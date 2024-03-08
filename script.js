@@ -4,7 +4,7 @@ const username = document.querySelector('#username').value.trim();
 const password = document.querySelector("#password").value.trim();
 const mssg = document.querySelector('#mssg');
 
-if (username.toLowerCase() === 'pearson karen' && password === 'pearson333') {
+if (username.toLowerCase() === 'pearson karen' && password.toLowerCase() === 'pearson333') {
     window.location.href= 'third.html';
     mssg.style.display = 'none';
 }
